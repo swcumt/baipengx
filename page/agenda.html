@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+
+	<title>Agenda</title>
+	<link rel="stylesheet" href="./../css/style.css">
+</head>
+<script type="text/javascript">
+//rem自适应字体大小方法
+var docEl = document.documentElement,
+resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+recalc = function() {
+    //设置根字体大小
+    docEl.style.fontSize = 10 * (docEl.clientWidth / 320) + 'px';
+};
+//绑定浏览器缩放与加载时间
+window.addEventListener(resizeEvt, recalc, false);
+document.addEventListener('DOMContentLoaded', recalc, false);
+</script>
+<body style="background: #e6e7e7;">
+
+	<div class="navs">
+		<ul>
+			<li><a href="./../index.html">Home</a></li>
+			<li><a href="./about.html">About</a></li>
+			<li><a href="./agenda.html" class="active">Agenda</a></li>
+			<li><a href="./attendee.html">Attendee</a></li>
+			<li><a href="./ticket.html">Ticket</a></li>
+			<li><a href="./sponsor.html">Sponsor</a></li>
+		</ul>
+	</div>
+	<div class="banner"><img src="./../images/agenda.jpg" alt=""></div>
+	<!-- <div class="emialBox phone">
+		<div class="twoBtn">
+			<div class="leftBtn"><a href="mailto:peter@fbg.capital">peter@fbg.capital</a></div>
+			<div class="rightBtn">contact</div>
+		</div>
+		<div class="weixin"></div>
+	</div> -->
+	<div class="articalWrapper">		
+		<div class="articalMain agendaA">
+			<p>Event:  Digital Asset Summit</p>
+			<p>Time:  Sept 17, 2017</p>
+			<p>Location:  Shanghai, Shanghai Tower , 2nd Floor Garden Ballroom</p>
+		</div>
+		<div class="TimeDiv">
+			<div class="morning">
+				<div class="am first">AM</div>
+				<ul class="times second">
+					<li>08:00-08:30</li>
+					<li>08:30-08:45</li>
+					<li style="height:32px;line-height:32px;">08:45-09:00</li>
+					<li>09:00-09:40</li>
+					<li>09:40-10:20</li>
+					<li>10:20-11:00</li>
+					<li>11:00-12:02</li>
+				</ul>
+				<ol class="Thing third">
+					<li>Registration</li>
+					<li>Opening Speech</li>
+					<li style="height:32px;">Keynote Speech: <br>Digital Asset Ecosystem & Fund rlease</li>
+					<li>Panel A：Token Sale Projects - first half</li>
+					<li>Panel B：Token Sale Projects - second half</li>
+					<li>Panel C：Exchange</li>
+					<li>TES and Future（TOTAL Eight）</li>
+				</ol>
+				<div class="clear"></div>
+			</div>
+			<div class="Lunch">
+				<div class="first">Lunch</div>
+				<div class="second">12:02-13:00 </div>
+				<div class="third"></div>
+			</div> 
+			<div class="Afternoon">
+				<div class="pm first">PM</div>
+				<ul class="times second">
+					<li>13:00-13:15</li>
+					<li>13:15-13:55</li>
+					<li>13:55-14:30</li>
+					<li>14:30-14:55</li>
+					<li>14:55-15:30</li>
+					<li>15:30-18:15</li>
+				</ul>
+				<ol class="Thing third">
+					<li>Keynote Speech：Digital Asset Investment</li>
+					<li>Panel D：Crypto Fund</li>
+					<li>Panel E：Traditional VC</li>
+					<li>Keynote：Vitalik Ethereum Ecosystem</li>
+					<li>Panel F：Ethereum Ecosystem</li>
+					<li>Projects Presentations</li>
+				</ol>
+				<div class="clear"></div>
+
+			</div>  
+			<div class="Break">
+				<div class="first">Break</div>
+				<div class="second"></div>
+				<div class="third"></div>
+			</div>
+			<div class="party">
+				<div class="first">Cocktail Party </div>
+				<div class="second">18:30-21:30 </div>
+				<div class="third">Party Presentation</br>Cocktail Party </div>
+			</div>
+		</div>
+
+
+
+		<div class="emialBox">
+			<div class="twoBtn">
+				<div class="leftBtn"><a href="mailto:peter@fbg.capital">peter@fbg.capital</a></div>
+				<div class="rightBtn">contact</div>
+			</div>
+			<div class="weixin"></div>
+
+		</div>
+	</div>
+	
+</body>
+</html>

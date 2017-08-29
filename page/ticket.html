@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+
+	<title>Sponsor</title>
+	<link rel="stylesheet" href="./../css/style.css">
+</head>
+<script type="text/javascript">
+//rem自适应字体大小方法
+var docEl = document.documentElement,
+resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+recalc = function() {
+    //设置根字体大小
+    docEl.style.fontSize = 10 * (docEl.clientWidth / 320) + 'px';
+};
+//绑定浏览器缩放与加载时间
+window.addEventListener(resizeEvt, recalc, false);
+document.addEventListener('DOMContentLoaded', recalc, false);
+</script>
+<body style="background: #e6e7e7;">
+
+	<div class="navs">
+		<ul>
+			<li><a href="./../index.html">Home</a></li>
+			<li><a href="./about.html">About</a></li>
+			<li><a href="./agenda.html">Agenda</a></li>
+			<li><a href="./attendee.html">Attendee</a></li>
+			<li><a href="./ticket.html" class="active">Ticket</a></li>
+			<li><a href="./sponsor.html">Sponsor</a></li>
+		</ul>
+	</div>
+	<div class="banner"><img src="./../images/ticket.jpg" alt=""></div>
+	<!-- <div class="emialBox phone">
+		<div class="twoBtn">
+			<div class="leftBtn"><a href="mailto:peter@fbg.capital">peter@fbg.capital</a></div>
+			<div class="rightBtn">contact</div>
+		</div>
+		<div class="weixin"></div>
+	</div> -->
+
+	<div class="articalWrapper ticketAc" style="padding-top:100px;">		
+		<div class="ticketBottom">
+			<div class="boxTitle">
+				<span>Type</span>
+				<span>Rate</span>
+				<span>Content</span>
+			</div>
+			<div class="erweima pc"><img src="./../images/erweima12.png" alt=""></div>
+			<ul>
+				<li>
+					<span>Attendance</span>
+					<span>30 USD</span>
+					<span>Conf Participation,Set limit to 100</span>
+				</li>
+				<li>
+					<span>Standard</span>
+					<span>150 USD</span>
+					<span>Conf Participation+Lunch Party</span>
+				</li>
+				<li>
+					<span>VIP</span>
+					<span>329 USD</span>
+					<span>Conf+Lunch Party+The VIP Seats</span>
+				</li>
+				<li>
+					<span>VIP package</span>
+					<span>448 USD</span>
+					<span>Conf+Lunch Party+VIP Seats+Cocktail Party</span>
+				</li>
+			</ul>
+			<div class="clear"></div>
+		</div>
+		<div class="erweima phone"><img src="./../images/erweima12.png" alt=""></div>
+
+		<div class="emialBox">
+			<div class="twoBtn">
+				<div class="leftBtn"><a href="mailto:peter@fbg.capital">peter@fbg.capital</a></div>
+				<div class="rightBtn">contact</div>
+			</div>
+			<div class="weixin"></div>
+		</div>
+	</div>
+	
+</body>
+</html>

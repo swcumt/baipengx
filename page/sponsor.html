@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+
+	<title>Sponsor</title>
+	<link rel="stylesheet" href="./../css/style.css">
+</head>
+<script type="text/javascript">
+//rem自适应字体大小方法
+var docEl = document.documentElement,
+resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+recalc = function() {
+    //设置根字体大小
+    docEl.style.fontSize = 10 * (docEl.clientWidth / 320) + 'px';
+};
+//绑定浏览器缩放与加载时间
+window.addEventListener(resizeEvt, recalc, false);
+document.addEventListener('DOMContentLoaded', recalc, false);
+</script>
+<body style="background: #e6e7e7;">
+
+	<div class="navs">
+		<ul>
+			<li><a href="./../index.html">Home</a></li>
+			<li><a href="./about.html">About</a></li>
+			<li><a href="./agenda.html">Agenda</a></li>
+			<li><a href="./attendee.html">Attendee</a></li>
+			<li><a href="./ticket.html">Ticket</a></li>
+			<li><a href="./sponsor.html" class="active">Sponsor</a></li>
+		</ul>
+	</div>
+	<div class="banner"><img src="./../images/sponsor.jpg" alt=""></div>
+	<!-- <div class="emialBox phone">
+		<div class="twoBtn">
+			<div class="leftBtn"><a href="mailto:peter@fbg.capital">peter@fbg.capital</a></div>
+			<div class="rightBtn">contact</div>
+		</div>
+		<div class="weixin"></div>
+	</div> -->
+	<div class="articalWrapper">		
+		<div class="articalMain">
+			<p>Organizer： FBG Capital</p>
+			<p>Co-host：HCASH, BTCC, GoToken</p>
+			<p>Co-host Media：ChainB, Jinse Finance, SOSOBTC, BTC123, Shared Finance, GEEKPARK, Blocknews</p>
+			<p>Support Media：Fong, Coinearlybird, Yangyang.tv, BMAN, CoinDaily, DIGICCY Salon, Bitcoin Magazine</p>
+			<p>Sponsor Brand：Binance, VPDAX, NEO, Alphabit Fund, Propy, TRON, Dochain, Genaro, wolk</p>
+		</div>
+		<div class="emialBox">
+			<div class="twoBtn">
+				<div class="leftBtn"><a href="mailto:peter@fbg.capital">peter@fbg.capital</a></div>
+				<div class="rightBtn">contact</div>
+			</div>
+			<div class="weixin"></div>
+
+		</div>
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+
+	<title>About</title>
+	<link rel="stylesheet" href="./../css/style.css">
+</head>
+<script type="text/javascript">
+//rem自适应字体大小方法
+var docEl = document.documentElement,
+resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+recalc = function() {
+    //设置根字体大小
+    docEl.style.fontSize = 10 * (docEl.clientWidth / 320) + 'px';
+};
+//绑定浏览器缩放与加载时间
+window.addEventListener(resizeEvt, recalc, false);
+document.addEventListener('DOMContentLoaded', recalc, false);
+</script>
+<body style="background: #e6e7e7;">
+
+	<div class="navs">
+		<ul>
+			<li><a href="./../index.html">Home</a></li>
+			<li><a href="./about.html" class="active">About</a></li>
+			<li><a href="./agenda.html">Agenda</a></li>
+			<li><a href="./attendee.html">Attendee</a></li>
+			<li><a href="./ticket.html">Ticket</a></li>
+			<li><a href="./sponsor.html">Sponsor</a></li>
+		</ul>
+	</div>
+	<div class="banner"><img src="./../images/aboutBanner.jpg" alt=""></div>
+	<!-- <div class="emialBox phone">
+		<div class="twoBtn">
+			<div class="leftBtn"><a href="mailto:peter@fbg.capital">peter@fbg.capital</a></div>
+			<div class="rightBtn">contact</div>
+		</div>
+		<div class="weixin"></div>
+	</div> -->
+	<div class="articalWrapper agendaA">		
+		<div class="articalMain">
+			<p>Blockchain-based asset is an emerging asset class with
+			substantial growth witnessed in the past two years. 
+			New companies, protocols and applications are being empowered
+			by tokens with unique attributes. </p>
+		</div>
+		<div class="articalMain">
+			<p>DAS (Digital Asset Summit) will be the first event in Asia to explore  the values and economics behind the digital assets. 
+			Organized by FBG Capital, the very first DAS event will be held in Shanghai on September 17th, 2017. 
+			The event is highlighted by over 100 project founders, cryptocurrency fund managers, 
+			venture capitalists and leaders in the Fintech and Blockchain space, 
+			who are expected to share their insights and visions before an audience of over 1,000 industry professionals.</p>
+		</div>
+		<div class="articalMain">
+			<p>We are looking forward to having you join us and spread your ideas in Shanghai Tower.</p>
+		</div>
+		<div class="emialBox">
+			<div class="twoBtn">
+				<div class="leftBtn"><a href="mailto:peter@fbg.capital">peter@fbg.capital</a></div>
+				<div class="rightBtn">contact</div>
+			</div>
+			<div class="weixin"></div>
+
+		</div>
+	</div>
+	
+</body>
+</html>

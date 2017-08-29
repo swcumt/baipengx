@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DAS</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<script type="text/javascript">
+    //rem自适应字体大小方法
+    var docEl = document.documentElement,
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+        recalc = function() {
+            //设置根字体大小
+            docEl.style.fontSize = 10 * (docEl.clientWidth / 320) + 'px';
+        };
+    //绑定浏览器缩放与加载时间
+    window.addEventListener(resizeEvt, recalc, false);
+    document.addEventListener('DOMContentLoaded', recalc, false);
+</script>
+
+<body>
+    <div class="wrapper">
+        <div class="contnter">
+            <ul>
+                <li><a href="./page/about.html">About</a></li>
+                <li><a href="./page/agenda.html">Agenda</a></li>
+                <li><a href="./page/attendee.html">Attendee</a></li>
+                <li><a href="./page/ticket.html">Ticket</a></li>
+                <li><a href="./page/sponsor.html">Sponsor</a></li>
+            </ul>
+            <div class="tes">DAS</div>
+            <div class="clear"></div>
+            <!-- <div class="artical">
+				<p>TES (Digital Asset Economy Summit) will be the first event in Asia to explore</p>
+				<p>and economics behind the tokens. Organized by FBG Capital, the very first TES </p>
+				<p>event will be held in Shanghai on September 17th, 2017. The event is highlighted </p>
+				<p>by over 100 project founders, cryptocurrency fund managers, venture capitalists</p>
+				<p>and leaders in the Fintech and Blockchain space, who are expected to share their </p>
+				<p>insights and visions before an audience of over 1,000 industry professionals</p>
+			</div> -->
+            <div class="twoBtn" id="indextwoBtn">
+                <div class="leftBtn"><a href="mailto:peter@fbg.capital">peter@fbg.capital</a></div>
+                <div class="rightBtn">contact</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
